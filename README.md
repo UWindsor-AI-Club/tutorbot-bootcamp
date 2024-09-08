@@ -26,6 +26,7 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 2. Click the environment called ".venv" (You might have to click python environments first)
 3. Read through and make sure to complete the part that says "activity"
 
+> Note: If you are unable to complete the activities, continue to the next steps and write a comment in the pull request
 
 ### After Completing Bootcamp
 1. Open terminal and go to the repo directory
