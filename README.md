@@ -8,17 +8,18 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 ### Setup:
 
 1. `git clone https://github.com/UWindsor-AI-Club/tutorbot-bootcamp.git`
-2. `git checkout -b firstname-lastname-bootcamp`
+2. `cd tutorbot-bootcamp`
+3. `git checkout -b firstname-lastname-bootcamp`
 
 > Note: If first name or last name has a space in it, put a `-` in place of it
 
-3. `python -m venv .venv`
+4. `python -m venv .venv`
 
-4. `source .venv/bin/activate`
+5. `source .venv/bin/activate`
 
-5. `pip install -r requirements.txt`
+6. `pip install -r requirements.txt`
 
-6. `code .` (or open Visual Studio Code manually to this folder)
+7. `code .` (or open Visual Studio Code manually to this folder)
 
 ### For each bootcamp part
 1. Click "Select Kernal" button on top right
