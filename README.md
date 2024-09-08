@@ -37,6 +37,6 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 7. Click "Create Pull Request"
 
 ### Questions?
-Email: ruedag@uwindsor.ca
+Email: ruedag@uwindsor.ca OR 
 AI Club Discord Server: #tutorbot-bootcamp-support
 
