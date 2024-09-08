@@ -29,6 +29,7 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 
 ### After Completing Bootcamp
 1. Open terminal and go to the repo directory
+
 2.`git add .`
 3. `git commit -m "Bootcamp Complete"`
 4. `git push --set-upstream origin firstname-lastname-bootcamp` (same branch name from checkout command before)
