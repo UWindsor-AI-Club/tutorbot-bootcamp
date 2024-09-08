@@ -7,7 +7,7 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 
 ### Setup:
 
-1. `git clone`
+1. `git clone https://github.com/UWindsor-AI-Club/tutorbot-bootcamp.git`
 2. `git checkout -b firstname-lastname-bootcamp`
 
 > Note: If first name or last name has a space in it, put a `-` in place of it
