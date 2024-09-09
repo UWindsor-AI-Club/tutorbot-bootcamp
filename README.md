@@ -33,6 +33,9 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 2. `git add .`
 3. `git commit -m "Bootcamp Complete"`
 4. `git push --set-upstream origin firstname-lastname-bootcamp` (same branch name from checkout command before)
+
+> Please send your Github username to ruedag@uwindsor.ca OR post it on #tutorbot-bootcamp-support if your unable to push
+
 5. Go back to the github page, refresh the page, and then click "Compare & Pull Request" in the pop up
 6. Add a title (no need for description)
 7. Click "Create Pull Request"
