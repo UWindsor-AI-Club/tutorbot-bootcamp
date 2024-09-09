@@ -15,7 +15,10 @@ The Bootcamp to join TutorBot team at the UWindsor AI Club
 
 4. `python -m venv .venv`
 
+Linux:
 5. `source .venv/bin/activate`
+Windows:
+5. `source .venv/Scripts/activate`
 
 6. `pip install -r requirements.txt`
 
