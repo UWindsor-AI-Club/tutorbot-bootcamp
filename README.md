@@ -1,6 +1,6 @@
 # tutorbot-bootcamp
-The Bootcamp to join TutorBot team at the UWindsor AI Club
-Recommended Deadline: Sept 12 2024 at 11:59pm - ensures best chances for us to consider your application
+- The Bootcamp to join TutorBot team at the UWindsor AI Club
+- Recommended Deadline: Sept 12 2024 at 11:59pm - ensures best chances for us to consider your application
 
 ### Prerequisites:
 1. Python 3.8 or higher
