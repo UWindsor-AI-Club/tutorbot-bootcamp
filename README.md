@@ -15,12 +15,14 @@
 > Note: If first name or last name has a space in it, put a `-` in place of it
 
 4. `python -m venv .venv`
-
+Linux:
 5. `source .venv/bin/activate`
+Windows:
+5. `source .venv/Scripts/activate`
 
-6. `pip install -r requirements.txt`
+7. `pip install -r requirements.txt`
 
-7. `code .` (or open Visual Studio Code manually to this folder)
+8. `code .` (or open Visual Studio Code manually to this folder)
 
 ### For each bootcamp part
 1. Click "Select Kernal" button on top right
