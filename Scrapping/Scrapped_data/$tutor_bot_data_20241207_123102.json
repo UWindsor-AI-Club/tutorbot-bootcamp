@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What is a variable in C?",
+        "answer": "Avariable in Cis a memory location with some name that helps store some form of data and retrieves it when required. We can store different types of data in the variable and reuse the same variable for storing some other data any number of times.\nThey can be viewed as the names given to the memory location so that we can refer to it without having to memorize the memory address. The size of the variable depends upon the data type it stores. To learn how variables interact with data structures and functions, theC Programming Course Online with Data Structuresoffers in-depth explanations and practical use cases for managing variables effectively.",
+        "code": "data_type variable_name = value;    // defining single variableordata_type variable_name1, variable_name2;// defining multiple variable"
+    },
+    {
+        "question": "C Variable Syntax",
+        "answer": "The syntax to declare a variable in C specifies the name and the type of the variable.",
+        "code": "data_type variable_name = value;    // defining single variableordata_type variable_name1, variable_name2;// defining multiple variable"
+    },
+    {
+        "question": "1. C Variable Declaration",
+        "answer": "Variable declaration in C tells the compiler about the existence of the variable with the given name and data type.When the variable is declared, an entry in symbol table is created and memory will be allocated at the time of initialization of the variable.",
+        "code": "int var;char var2;"
+    },
+    {
+        "question": "2. C Variable Definition",
+        "answer": "In the definition of a C variable, the compiler allocates some memory and some value to it. A defined variable will contain some random garbage value till it is not initialized.\nExample",
+        "code": "int var;char var2;"
+    },
+    {
+        "question": "3. C Variable Initialization",
+        "answer": "Initialization of a variable is the process where the user assigns some meaningful value to the variable when creating the variable.\n\nExample",
+        "code": "int var = 10;    //variable declaration and definition (i.e. Vairable Initialization)"
+    },
+    {
+        "question": "Difference between Variable Initialization and Assignment",
+        "answer": "Initialization occurs when a variable is first declared and assigned an initial value. This usually happens during the declaration of the variable. On the other hand, assignment involves setting or updating the value of an already declared variable, and this can happen multiple times after the initial initialization.\nExample",
+        "code": "int a=10;        //Variable initializationa=10;             //assignment"
+    },
+    {
+        "question": "How to use variables in C?",
+        "answer": "The below example demonstrates how we can use variables in C language.",
+        "code": "// C program to demonstrate the// declaration, definition and// initialization#include<stdio.h>intmain(){// declaration with definitionintdefined_var;printf(\"Defined_var: %d\\n\",defined_var);// assignmentdefined_var=12;// declaration + definition + initializationintini_var=25;printf(\"Value of defined_var after assignment: %d\\n\",defined_var);printf(\"Value of ini_var: %d\",ini_var);return0;}"
+    },
+    {
+        "question": "Rules for Naming Variables in C",
+        "answer": "You can assign any name to the variable as long as it follows the following rules:",
+        "code": "// C program to declare and print local variable inside a// function.#include<stdio.h>voidfunction(){intx=10;// local variableprintf(\"%d\",x);}intmain(){function();}"
+    },
+    {
+        "question": "C Variable Types",
+        "answer": "The C variables can be classified into the following types:",
+        "code": "// C program to declare and print local variable inside a// function.#include<stdio.h>voidfunction(){intx=10;// local variableprintf(\"%d\",x);}intmain(){function();}"
+    },
+    {
+        "question": "1. Local Variables in C",
+        "answer": "ALocal variable in Cis a variable that is declared inside a function or a block of code. Its scope is limited to the block or function in which it is declared.",
+        "code": "// C program to declare and print local variable inside a// function.#include<stdio.h>voidfunction(){intx=10;// local variableprintf(\"%d\",x);}intmain(){function();}"
+    },
+    {
+        "question": "Example of Local Variable in C",
+        "answer": "",
+        "code": "// C program to declare and print local variable inside a// function.#include<stdio.h>voidfunction(){intx=10;// local variableprintf(\"%d\",x);}intmain(){function();}"
+    },
+    {
+        "question": "2. Global Variables in C",
+        "answer": "AGlobal variable in Cis a variable that is declared outside the function or a block of code. Its scope is the whole program i.e. we can access theglobal variableanywhere in the C program after it is declared.",
+        "code": "// C program to demonstrate use of global variable#include<stdio.h>intx=20;// global variablevoidfunction1(){printf(\"Function 1: %d\\n\",x);}voidfunction2(){printf(\"Function 2: %d\\n\",x);}intmain(){function1();function2();return0;}"
+    },
+    {
+        "question": "Example of Global Variable in C",
+        "answer": "",
+        "code": "// C program to demonstrate use of global variable#include<stdio.h>intx=20;// global variablevoidfunction1(){printf(\"Function 1: %d\\n\",x);}voidfunction2(){printf(\"Function 2: %d\\n\",x);}intmain(){function1();function2();return0;}"
+    },
+    {
+        "question": "3. Static Variables in C",
+        "answer": "Astatic variable in Cis a variable that is defined using thestatickeyword. It can be defined only once in a C program and its scope depends upon the region where it is declared (can beglobal or local).\nThedefault valueof static variables iszero.",
+        "code": "static data_type variable_name = initial_value;"
+    },
+    {
+        "question": "Syntax of Static Variable in C",
+        "answer": "",
+        "code": "static data_type variable_name = initial_value;"
+    },
+    {
+        "question": "Example of Static Variable in C",
+        "answer": "",
+        "code": "// C program to demonstrate use of static variable#include<stdio.h>voidfunction(){intx=20;// local variablestaticinty=30;// static variablex=x+10;y=y+10;printf(\"\\tLocal: %d\\n\\tStatic: %d\\n\",x,y);}intmain(){printf(\"First Call\\n\");function();printf(\"Second Call\\n\");function();printf(\"Third Call\\n\");function();return0;}"
+    },
+    {
+        "question": "4. Automatic Variable in C",
+        "answer": "All thelocalvariables areautomaticvariablesby default. They are also known as auto variables.\nTheir scope islocaland their lifetime is till the end of theblock.If we need, we can use theautokeyword to define the auto variables.\nThe default value of the auto variables is a garbage value.",
+        "code": "auto data_type variable_name;ordata_type variable_name;    (in local scope)"
+    },
+    {
+        "question": "Syntax of Auto Variable in C",
+        "answer": "",
+        "code": "auto data_type variable_name;ordata_type variable_name;    (in local scope)"
+    },
+    {
+        "question": "Example of auto Variable in C",
+        "answer": "",
+        "code": "// C program to demonstrate use of automatic variable#include<stdio.h>voidfunction(){intx=10;// local variable (also automatic)autointy=20;// automatic variableprintf(\"Auto Variable: %d\",y);}intmain(){function();return0;}"
+    },
+    {
+        "question": "5. External Variables in C",
+        "answer": "External variables in Ccan besharedbetweenmultiple C files. We can declare an external variable using theexternkeyword.\nTheir scope isglobaland they exist between multiple C files.",
+        "code": "extern data_type variable_name;"
+    },
+    {
+        "question": "Syntax of Extern Variables in C",
+        "answer": "",
+        "code": "extern data_type variable_name;"
+    },
+    {
+        "question": "Example of Extern Variable in C",
+        "answer": "",
+        "code": "----------myfile.h------------extern int x=10;  //external variable (also global)----------program1.c----------#include \"myfile.h\"#include <stdio.h>void printValue(){printf(\"Global variable: %d\", x);}"
+    },
+    {
+        "question": "6. Register Variables in C",
+        "answer": "Register variables in Care those variables that are stored in theCPU registerinstead of the conventional storage place like RAM. Their scope islocaland exists till theendof theblockor a function.\nThese variables are declared using theregisterkeyword.\nThe default value of register variables is agarbage value.",
+        "code": "register data_type variable_name = initial_value;"
+    },
+    {
+        "question": "Syntax of Register Variables in C",
+        "answer": "",
+        "code": "register data_type variable_name = initial_value;"
+    },
+    {
+        "question": "Example of Register Variables in C",
+        "answer": "",
+        "code": "// C program to demonstrate the definition of register// variable#include<stdio.h>intmain(){//    register variableregisterintvar=22;printf(\"Value of Register Variable: %d\\n\",var);return0;}"
+    },
+    {
+        "question": "Constant Variable in C",
+        "answer": "Till now we have only seen the variables whose values can be modified any number of times. But C language also provides us a way to make the value of a variable immutable. We can do that by defining the variable as constant.\nAconstant variablein C is a read-only variable whose value cannot be modified once it is defined. We can declare a constant variable using theconstkeyword.",
+        "code": "const data_type variable_name = value;"
+    },
+    {
+        "question": "Syntax of Const Variable in C",
+        "answer": "",
+        "code": "const data_type variable_name = value;"
+    },
+    {
+        "question": "Example of Const Variable in C",
+        "answer": "",
+        "code": "// C Program to Demonstrate constant variable#include<stdio.h>intmain(){// variableintnot_constant;// constant variable;constintconstant=20;// changing valuesnot_constant=40;constant=22;return0;}"
+    },
+    {
+        "question": "Q1. What is the difference between variable declaration and definition in C?",
+        "answer": "Ans:\nIn variable declaration, only the name and type of the variable is specified butno memory is allocatedto the variable.In variable definition, the memory is also allocated to the declared variable.",
+        "code": null
+    },
+    {
+        "question": "Q2. What is the variable’s scope?",
+        "answer": "Ans:\nThescope of a variableis the region in which the variable exists and it is valid to perform operations on it. Beyond the scope of the variable, we cannot access it and it is said to be out of scope.",
+        "code": null
+    }
+]

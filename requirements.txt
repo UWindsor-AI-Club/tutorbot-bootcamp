@@ -2,3 +2,4 @@ torch
 tiktoken
 numpy
 ipykernel
+bs4
